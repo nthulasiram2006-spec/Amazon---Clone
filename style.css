@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+/* BOX == 1 */
+.Navbar{
+   height: 60px;
+   background-color: #000000; 
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.Nav-Logo{
+    height: 50px;
+    width: 100px;
+}
+
+
+.Logo{
+    background-image: url(AMAZON\ LOGO.webp);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.Border{
+    border: 1.5px solid transparent ;
+}
+
+.Border:hover{
+    border: 1.5px solid White;
+}
+
+/* BOX == 2 */
+.Address-Icon{
+    display: flex;
+    align-items: center;
+}
+
+.Add-First{
+    margin-left: 22px;
+    color: antiquewhite;
+    font-size: 0.85rem;
+}
+
+.Add-Sec{
+    margin-left: 3px;
+    color: aliceblue;
+}
+
+/* BOX == 3 */
+.Nav-Search{
+    margin-left: 15px;
+    display: flex;
+    background-color: pink;
+    width: 600px;
+    height: 40px ;
+    border-radius: 3px;
+    justify-content: space-evenly;
+}
+
+.Aura{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.Space{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.Search-Logo{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.Border_New:hover{
+    border: 2px solid orange;
+}
+
+/* BOX == 4 */
+.Dark{
+    font-size: 0.7rem;
+}
+
+.Bold{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* BOX == 5 */
+.Cart-Logo{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.All{
+    font-size: 0.85rem;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.Panel-Bar{
+    height: 40px;
+    font-size: 16px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+}
+
+.Panel-Ops p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.Panel-Ops {
+    width: 70%;
+    font-size: 0.8rem;
+}
+
+/* HERO SECTION */
+.Hero-Section{
+    background-image: url(AMAZON\ SAMPLE.jpg);
+    height: 380px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.Hero-Msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+
+.Hero-Msg a{
+    color: #007185;
+}
+
+/* SHOP SECTION */
+
+.Shop-Section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e6e7;
+}
+
+.Box{
+    background-color: white;
+    margin-top: 20px;
+    height: 500px;
+    /* border: 2px solid black; */
+    width: 23%;
+    padding: 20px 0px 15px;
+}
+ 
+.Box-Image{
+    height: 400px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Box-Content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* Foot-Panel_1 */
+.Foot-Panel_1{
+    background-color: #374758 ;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.Hello{
+    font-weight: bold;
+}
+
+/* Foot-Panel_2 */
+.Foot-Panel_2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    height: 250px;
+}
+
+ul{
+
+margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+/* Foot-Panel_3 */
+
+.Foot-Panel_3{
+    background-color: #222f3d;
+    height: 60px;
+    border-top: 0.5px solid white;
+    color: white;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(AMAZON\ ORIGINAL.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.Foot-Panel_4{
+    background-color:#374758 ;
+    color: white;
+    height: 80px;
+}
+
+.Pages{
+   font-size: 0.7rem;
+   text-align: center;
+   padding: 25px;
+}
+
+.Copyright{
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 5px;
+}
+
+
+
+
+
+
