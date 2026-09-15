@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     font-family: Arial;
-    border: border-box;
+    box-sizing: border-box;
 }
 
 /* BOX == 1 */
@@ -21,7 +21,7 @@
 
 
 .Logo{
-    background-image: url(AMAZON\ LOGO.webp);
+    background-image: url('../assets/images/AMAZON%20LOGO.webp');
     background-size: cover;
     height: 50px;
     width: 100px;
@@ -136,7 +136,7 @@
 
 /* HERO SECTION */
 .Hero-Section{
-    background-image: url(AMAZON\ SAMPLE.jpg);
+    background-image: url('../assets/images/AMAZON%20SAMPLE.jpg');
     height: 380px;
     background-size: cover;
     display: flex;
@@ -245,7 +245,7 @@ ul a{
 }
 
 .logo{
-    background-image: url(AMAZON\ ORIGINAL.png);
+    background-image: url('../assets/images/AMAZON%20ORIGINAL.png');
     background-size: cover;
     height: 50px;
     width: 100px;
